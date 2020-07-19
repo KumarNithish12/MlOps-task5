@@ -10,7 +10,7 @@ import pandas as pd
 # In[2]:
 
 
-dataset = pd.read_csv('webserverlog.csv')
+dataset = pd.read_csv('/task5/webserverlog.csv')
 
 
 # In[3]:
@@ -238,7 +238,7 @@ res = str(res)
 # In[42]:
 
 
-file1 = open("blockIP.txt","w")
+file1 = open("/task5/blockIP.txt","w")
 file1.write(res)
 file1.close()
 
