@@ -242,6 +242,7 @@ file1 = open("blockIP.txt","w")
 file1.write(res)
 file1.close()
 
+print("Suspicious IP is : ", res)
 
 # In[ ]:
 
